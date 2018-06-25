@@ -1,0 +1,36 @@
+{
+  "name": "mydoc",
+  "version": "1.0.0",
+  "description": "A starter kit with Budo, LESS and Gulp, A-Frame, Three.js and AR experiment example and study of technology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo index.js",
+    "start1": "budo index.js --live --verbose --port 3000 --open"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "budo": "^7.0.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-typescript": "^5.0.0-alpha.1",
+    "gulp-util": "^3.0.8",
+    "tsify": "^4.0.0",
+    "typescript": "^2.9.2",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  },
+  "keywords": [
+    "a-frame",
+    "threejs",
+    "ar",
+    "augmented",
+    "reality"
+  ],
+  "author": {
+    "name": "Saurabh Barthwal",
+    "email": "saurabh.barthwal39@gmail.com",
+    "url": "https://github.com/barthwal"
+  },
+  "license": "ISC"
+}
